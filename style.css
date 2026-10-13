@@ -1359,8 +1359,28 @@ body[data-page="dark"] .site-footer {
   display: block;
 }
 
+.overlay-lang-toggle {
+  margin-top: 18px;
+  width: min(332px, calc(100vw - 48px));
+  justify-content: center;
+  background: rgba(17, 17, 17, 0.05);
+}
+
+.overlay-lang-toggle .lang-btn {
+  font-size: 13px;
+  padding: 9px 12px;
+}
+
+.overlay-lang-toggle .lang-btn .lang-full {
+  display: inline;
+}
+
+.overlay-lang-toggle .lang-btn .lang-abbr {
+  display: none;
+}
+
 .overlay nav {
-  margin-top: 28px;
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1421,6 +1441,7 @@ body[data-page="dark"] .site-footer {
   }
 
   .overlay .logo,
+  .overlay-lang-toggle,
   .overlay nav,
   .overlay .socials {
     width: min(332px, calc(100vw - 80px));
