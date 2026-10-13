@@ -1,4 +1,4 @@
-/* =========================
+﻿/* =========================
      1. Theme variables
      ========================= */
 :root {
@@ -337,12 +337,20 @@ main {
   text-decoration: none;
 }
 
+:root[data-theme="dark"] .logo-link img,
+body[data-page="dark"] .logo-link img,
+:root[data-theme="dark"] .logo img,
+body[data-page="dark"] .logo img {
+  filter: brightness(0) invert(1);
+}
+
 .logo-link img,
 .logo img,
 .footer-logo img {
   display: block;
   width: 120px;
   height: auto;
+  transition: filter 180ms ease;
 }
 
 .logo-link svg {
