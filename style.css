@@ -1,4 +1,4 @@
-﻿/* =========================
+/* =========================
      1. Theme variables
      ========================= */
 :root {
@@ -705,6 +705,20 @@ main {
 .flavor-card-copy .card-price {
   font-size: 19px;
   white-space: nowrap;
+}
+
+.premium-alert {
+  display: inline-block;
+  margin-right: 6px;
+  color: #d97706;
+  font-size: 1.15em;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.premium-alert-text {
+  font-weight: 800;
 }
 
 .bowl-grid {
