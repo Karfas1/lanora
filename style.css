@@ -1,4 +1,4 @@
-﻿/* =========================
+/* =========================
      1. Theme variables
      ========================= */
 :root {
@@ -151,6 +151,36 @@ body[data-page="dark"] {
 body[data-page="dark"] .pager .btn {
   background: #3a3936;
   color: #f4f0e8;
+}
+
+:root[data-theme="dark"] .overlay,
+body[data-page="dark"] .overlay {
+  background: #222220;
+  color: #f4f0e8;
+}
+
+:root[data-theme="dark"] .overlay::before,
+body[data-page="dark"] .overlay::before {
+  background: #222220;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme="dark"] .overlay-lang-toggle,
+body[data-page="dark"] .overlay-lang-toggle {
+  background: rgba(244, 240, 232, 0.08);
+}
+
+:root[data-theme="dark"] .overlay nav a,
+body[data-page="dark"] .overlay nav a {
+  color: #f4f0e8;
+}
+
+:root[data-theme="dark"] .overlay .socials svg,
+:root[data-theme="dark"] .overlay .close svg,
+body[data-page="dark"] .overlay .socials svg,
+body[data-page="dark"] .overlay .close svg {
+  color: #f4f0e8;
+  fill: currentColor;
 }
 
 a {
