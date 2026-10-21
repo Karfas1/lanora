@@ -16,18 +16,18 @@
       {
         name: "Fondant du Chef (Pkhaline Argan)",
         price: 100,
-        img: "images/fchefs.png",
+        img: "Images/fchefs.png",
       },
       {
         name: "Cake London Lanora",
         price: 60,
-        img: "images/cakelondonlanora.png",
+        img: "Images/cakelondonlanora.png",
       },
       { name: "Pistachio", price: 25, img: "Images/pistachiogelato.jpg" },
       {
         name: "Fondant Kunafa Pistache Ice Cream Pistache",
         price: 77,
-        img: "images/FondanticecReam.png",
+        img: "Images/FondanticecReam.png",
       },
     ],
     faq: {
